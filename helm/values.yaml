@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: lindblad/devops-paradox
+  repository: vfarcic/devops-paradox
   tag: latest
   pullPolicy: IfNotPresent
 knativeDeploy: false
