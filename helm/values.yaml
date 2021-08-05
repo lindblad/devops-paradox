@@ -1,11 +1,11 @@
 replicaCount: 1
 image:
-  repository: vfarcic/devops-paradox
+  repository: lindblad/devops-paradox
   tag: latest
   pullPolicy: IfNotPresent
 knativeDeploy: false
 ingress:
-  host: devopsparadox.com
+  host: devopsparadox.20.86.207.9.sslip.io
 service:
   name: devops-paradox
   type: ClusterIP
